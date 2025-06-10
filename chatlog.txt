@@ -1,0 +1,56 @@
+./chat 
+CUDA is available! Running on GPU.
+ - Detected  CUDA device(s).
+--- Model file not found. Beginning one-time assimilation process. ---
+Training on cuda.
+
+--- Epoch 1/20 ---
+  Training [==================================================] 100.0% (10439/10439) | Elapsed: 1142.88s  
+   - Average Training Loss: 6.7644
+  Evaluating [==================================================] 100.0% (10439/10439) | Elapsed: 679.64s  
+
+--- Validation Results ---
+   - Correct Predictions: 375 / 10439
+   - Top-1 Accuracy:      3.59%
+   -> New best validation accuracy. Saving checkpoint to model_best.bin
+Model saved to ./model_best.bin
+
+--- Epoch 2/20 ---
+  Training [==================================================] 100.0% (10439/10439) | Elapsed: 1136.74s  
+   - Average Training Loss: 5.9933
+  Evaluating [==================================================] 100.0% (10439/10439) | Elapsed: 666.24s  
+
+--- Validation Results ---
+   - Correct Predictions: 165 / 10439
+   - Top-1 Accuracy:      1.58%
+   -> Validation accuracy did not improve for 1 epoch(s).
+
+--- Epoch 3/20 ---
+  Training [==================================================] 100.0% (10439/10439) | Elapsed: 1134.31s  
+   - Average Training Loss: 5.3758
+  Evaluating [==================================================] 100.0% (10439/10439) | Elapsed: 669.76s  
+
+--- Validation Results ---
+   - Correct Predictions: 101 / 10439
+   - Top-1 Accuracy:      0.97%
+   -> Validation accuracy did not improve for 2 epoch(s).
+
+--- Early stopping triggered after 2 epochs without improvement. ---
+
+--- Assimilation Complete. Loading best model and saving final state. ---
+Model loaded from ./model_best.bin and moved to cuda
+Model saved to ./model.bin
+New conversation started.
+
+
+> The tao that can be told
+DAO: hyauseumil cal for others others infiniteonscep en may does others possesslfonsonsasterWt possess possessonsineonscinglig does does a to happent and. is... B. The more he by not others, the
+
+
+> When people see some things
+DAO: . The more he does is nothing’t wialth. The more he by not others, the wealthier he is st. The more he does is others, the wealthier he is. The more he does for others, the Master
+
+
+> The Tao is like a well
+DAO: ier he is not is’t wise. The more is no need to prove. The more is no close. The more he does things a needierier he is not. The more he does for others, the Masteralthier
+

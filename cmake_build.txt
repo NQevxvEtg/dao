@@ -1,0 +1,19 @@
+[  6%] Building CXX object CMakeFiles/dao_core.dir/src/rdse.cpp.o
+[ 12%] Building CXX object CMakeFiles/dao_core.dir/src/grid_cell_encoder.cpp.o
+[ 18%] Building CXX object CMakeFiles/dao_core.dir/src/text_sdr_encoder.cpp.o
+[ 25%] Building CXX object CMakeFiles/dao_core.dir/src/spatial_pooler.cpp.o
+[ 31%] Building CXX object CMakeFiles/dao_core.dir/src/resonance_layer.cpp.o
+[ 37%] Building CXX object CMakeFiles/dao_core.dir/src/temporal_memory.cpp.o
+[ 43%] Building CXX object CMakeFiles/dao_core.dir/src/attention.cpp.o
+[ 50%] Building CXX object CMakeFiles/dao_core.dir/src/conversational_generator.cpp.o
+[ 56%] Building CXX object CMakeFiles/dao_core.dir/src/dao_model.cpp.o
+[ 62%] Building CXX object CMakeFiles/dao_core.dir/src/trainer.cpp.o
+[ 68%] Linking CXX static library libdao_core.a
+[ 68%] Built target dao_core
+[ 75%] Building CXX object CMakeFiles/train_tokenizer.dir/src/train_tokenizer.cpp.o
+[ 81%] Linking CXX executable train_tokenizer
+[ 81%] Built target train_tokenizer
+[ 87%] Building CXX object CMakeFiles/chat.dir/src/chat.cpp.o
+[ 93%] Building CXX object CMakeFiles/chat.dir/src/trainer.cpp.o
+[100%] Linking CXX executable chat
+[100%] Built target chat
